@@ -24,6 +24,10 @@ Wait for a few minutes for the file to be available on the Airflow UI.
 ## Launch the Airflow UI:
 <img width="2055" alt="image" src="https://github.com/user-attachments/assets/f006a298-309d-4630-b15b-88fb4e03fcd0" />
 
+## In the Airflow UI, under Admin >> Variables, store your Sharepoint site credentials such as Username/email and password. This will be stored securely for the airflow dag to consume at runtime:
+<img width="2055" alt="image" src="https://github.com/user-attachments/assets/1eac4686-a977-41a8-97f6-a0ed22c223b6" />
+
+
 ## Click on the _sharepoint-to-gcs_ dag and run the dag:
 <img width="2055" alt="image" src="https://github.com/user-attachments/assets/0eb7ddbb-6757-489b-bb3a-0e1aec4b3953" />
 
