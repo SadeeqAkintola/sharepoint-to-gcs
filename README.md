@@ -4,6 +4,8 @@ Using Cloud Composer (Apache Airflow) to pull blob files (e.g csv) from Sharepoi
 Here is my Sharepoint Site. Notice the folder named "flat_files", and it contents:
 <img width="2055" alt="image" src="https://github.com/user-attachments/assets/eaa59373-c300-454e-9fb6-667c8cb51461" />
 
+## Set up the destination folder on Google Cloud Storage: _sharepoint_source --> input_folder_:
+<img width="2055" alt="image" src="https://github.com/user-attachments/assets/670e3363-6335-4eab-99e4-93ab9765b1f5" />
 
 ## Setting up Apache Airflow on Google Cloud Composer...
 <img width="2055" alt="image" src="https://github.com/user-attachments/assets/fbc08c86-6a14-471c-85c3-2130f1b2c12e" />
@@ -22,4 +24,12 @@ Wait for a few minutes for the file to be available on the Airflow UI.
 ## Launch the Airflow UI:
 <img width="2055" alt="image" src="https://github.com/user-attachments/assets/f006a298-309d-4630-b15b-88fb4e03fcd0" />
 
-#
+## Click on the _sharepoint-to-gcs_ dag and run the dag:
+<img width="2055" alt="image" src="https://github.com/user-attachments/assets/0eb7ddbb-6757-489b-bb3a-0e1aec4b3953" />
+
+## When the dag run is successful, you will see the files already pushed into the gcs bucket (input folder):
+<img width="2055" alt="image" src="https://github.com/user-attachments/assets/5c8051a9-38d0-4336-adcc-c883f49d38d3" />
+
+---
+
+# End.
